@@ -24,7 +24,9 @@ function Createstudent()
         <h1>Student Creation Page</h1>
         </div>
         <form onSubmit={handleSubmit}>
-        <Studentform getState={getState}/>
+        <Studentform getState={getState}>
+            Create Student
+            </Studentform>
         </form>
         </>
     )
